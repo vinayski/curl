@@ -1,6 +1,9 @@
-# how to use this docker image with kubernetes
+# how to use this minimal curl docker image with kubernetes
 
 ```
+
+kubectl run curl --image=vinayski/curl --restart=Never -it --rm  http://<any url inside k8 cluster>
+eg:
 kubectl run curl --image=vinayski/curl --restart=Never -it --rm  http://elasticsearch:9200/current-datetime/_search/\?size\=1000\&pretty\=true
 {
   "error" : {
