@@ -5,4 +5,4 @@ RUN wget http://www.magicermine.com/demos/curl/curl/curl-7.30.0.ermine.tar.bz2 &
 
 FROM scratch
 COPY --from=slim /bin/curl /bin/curl
-ENTRYPOINT ["/bin/curl","http://127.0.0.1"]
+ENTRYPOINT ["/bin/curl"]
