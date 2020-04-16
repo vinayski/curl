@@ -1,4 +1,6 @@
-# how to use this minimal curl docker image with kubernetes
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/vinayski/curl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/vinayski/curl/context:docker)
+
+## how to use this minimal curl docker image with kubernetes
 
 ```
 
