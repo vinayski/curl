@@ -3,6 +3,7 @@
 ## how to use this minimal curl docker image with kubernetes
 
 ```
+docker run -it vinayski/curl google.com
 
 kubectl run curl --image=vinayski/curl --restart=Never -it --rm  http://<any url inside k8 cluster>
 eg:
